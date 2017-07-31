@@ -77,7 +77,6 @@ h2{
 }
 
 .bottom-stories{
-  border: 1px solid;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -139,7 +138,6 @@ h2{
 
 span.imgtext{
   width:300px;
-  border: 1px solid;
   margin-right: 18px;
   margin-left: 15px;
 
@@ -169,8 +167,6 @@ span.imgtext{
 
 .text-content{
   width:300px;
-  border: 1px solid red;
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -180,13 +176,11 @@ span.imgtext{
 
 h2{
   width: 250px;
-  border: 1px solid purple;
   margin: 0px;
 }
 
 p{
   word-spacing: 2px;
-  border:1px solid green;
 }
 
 .just-img{
@@ -196,16 +190,20 @@ p{
 }
 
 /* middle column styling */
+.middle h2{
+  width: 250px;
+  text-align: left;
+}
+
 #dc{
   margin-bottom: 35px;
 }
 
 
-/* left column styling */
+/* right column styling */
 h3{
   font-size: 16px;
   font-weight: bold;
-  border: 1px solid black;
   text-align: center;
 }
 
@@ -220,10 +218,57 @@ h3{
 }
 
 .bite-list{
-  border: 1px solid;
   margin-top: 50px;
 }
 
-.right{
-  border: 1px solid;
+
+/* footer styling */
+.footer{
+  background-color: MediumAquamarine;
+  height:325px;
+  width: 100%;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+
+
+}
+
+footer p{
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+
+footer{
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.footer-nav{
+  display: flex;
+  align-items: center;
+
+
+}
+
+.fnav-item{
+  padding-bottom: 0px;
+}
+
+#ft-mytime{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid;
+  padding-right: 25px;
+  margin-right: 10px;
+}
+
+.footer-nav span{
+  padding: 8px;
 }
